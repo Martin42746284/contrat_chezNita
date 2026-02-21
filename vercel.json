@@ -1,9 +1,9 @@
 {
   "build": {
-    "env": {
-      "NODE_ENV": "production"
-    }
+    "installCommand": "npm install --legacy-peer-deps",
+    "buildCommand": "npm run build"
   },
-  "installCommand": "npm install --legacy-peer-deps",
-  "buildCommand": "npm run build"
+  "engines": {
+    "node": "20.x"
+  }
 }
